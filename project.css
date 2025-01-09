@@ -832,14 +832,15 @@ nav a {
     background-color: pink;
     float: right;
 }
-.dev_1B{
+
+.dev_1B {
     height: 410px;
     width: 600px;
     background-color: var(--bgcolor-second);
-    
+
 }
 
-.dev_1B h1{
+.dev_1B h1 {
     color: white;
     font-family: var(--sans-font);
     font-size: 2em;
@@ -848,7 +849,8 @@ nav a {
     padding-top: 20px;
     font-weight: 900;
 }
-.dev_1B p{
+
+.dev_1B p {
     color: white;
     font-family: var(--sans-font);
     padding-left: 55px;
@@ -857,7 +859,8 @@ nav a {
     line-height: 30px;
     letter-spacing: 0.7px;
 }
-.btn10{
+
+.btn10 {
     height: 8vh;
     width: 29vh;
     border: 2px solid white;
@@ -871,68 +874,222 @@ nav a {
     font-weight: 500;
     letter-spacing: 1px;
     margin-left: 55px;
-    
-    
+
+
     &:hover {
         background-color: white;
         color: var(--bgcolor-second);
         border: none;
     }
 }
-.right_img{
+
+.right_img {
     height: 390px;
     width: 600px;
     background-color: gray;
 }
-.right_img img{
+
+.right_img img {
     height: 390px;
     width: 600px;
     /* background-color: gray; */
     object-fit: cover;
 }
-.main_logodev{
+
+.main_logodev {
     height: 50px;
     width: 200px;
     /* background-color: red; */
     margin-top: 20px;
     display: flex;
 }
-.logo_dev1{
+
+.logo_dev1 {
     height: 50px;
     width: 50px;
     /* background-color: white; */
 }
-.logo_dev1 svg{
+
+.logo_dev1 svg {
     height: 32px;
     width: 32px
 }
-.logo_dev2{
+
+.logo_dev2 {
     height: 50px;
     width: 50px;
     /* background-color: white; */
-   
+
 }
-.logo_dev2 svg{
+
+.logo_dev2 svg {
     height: 32px;
     width: 32px;
 }
-.logo_dev3{
+
+.logo_dev3 {
     height: 50px;
     width: 50px;
     /* background-color: white; */
-   
+
 }
-.logo_dev3 svg{
+
+.logo_dev3 svg {
     height: 32px;
     width: 32px
 }
-.logo_dev4{
+
+.logo_dev4 {
     height: 50px;
     width: 50px;
     /* background-color: white; */
-   
+
 }
-.logo_dev4 svg{
+
+.logo_dev4 svg {
     height: 32px;
     width: 32px
+}
+
+.eight-section {
+    height: 180vh;
+    width: 100%;
+    background-color: var(--bgcolor-second);
+}
+
+.mainvh_dev {
+    height: 110vh;
+    width: 100%;
+    background-color: blue;
+}
+
+.mainvh_dev img {
+    height: 110vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.uper_dev {
+    height: 460px;
+    width: 720px;
+    background-color: white;
+    transform: translate(400px, -140px);
+    text-align: center;
+    padding: 50px 35px;
+}
+
+.uper_dev h1 {
+    font-family: var(--sans-font);
+    font-size: 3em;
+}
+
+.uper_dev p {
+    font-family: var(--sans-font);
+    font-size: 1.25em;
+    padding-top: 15px;
+}
+
+.btn11 {
+    height: 8vh;
+    width: 29vh;
+    border: 2px solid white;
+    border-radius: 100px;
+    color: white;
+    background-color: var(--bgcolor-second);
+    font-size: 1.3em;
+    /* border: 2px solid var(--bgcolor-second); */
+    font-family: var(--btn-font);
+    margin-top: 60px;
+    font-weight: 500;
+    letter-spacing: 1px;
+
+
+
+    &:hover {
+        background-color: white;
+        color: var(--bgcolor-second);
+        border: none;
+    }
+}
+
+.nine_section {
+    height: 150vh;
+    width: 100%;
+    background-color: var(--bgcolor-second);
+    /* position: absolute; */
+}
+
+.nevbar_dev {
+    height: 100px;
+    width: 100%;
+    background-color: var(--bgcolor-second);
+}
+
+.nevbar_dev h1 {
+    font-family: var(--sans-font);
+    font-size: 3em;
+    color: white;
+    text-align: center;
+}
+
+.temp_dev {
+    height: 250px;
+    width: 100%;
+    background-color: var(--bgcolor-second);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    /* position: relative; */
+    /* z-index: 0; */
+}
+
+.card_dev {
+    height: 250px;
+    width: 240px;
+    background-color: white;
+    /* position: absolute; */
+    transform: translate(0px, 100px);
+}
+
+.card_dev1 {
+    height: 250px;
+    width: 240px;
+    background-color: white;
+    transform: translate(0px, 100px);
+}
+
+.card_dev2 {
+    height: 250px;
+    width: 240px;
+    background-color: white;
+    transform: translate(0px, 100px);
+}
+
+.card_dev3 {
+    height: 250px;
+    width: 240px;
+    background-color: white;
+    transform: translate(0px, 100px);
+}
+
+.ime_devnimi {
+    height: 90vh;
+    width: 100%;
+    /* background-color: blue; */
+    justify-content: center;
+    display: flex;
+    object-fit: cover;
+    /* position: relative; */
+    /* transform: translate(0px, -50px); */
+    /* z-index: 0; */
+
+}
+
+.ime_devnimi img {
+    height: 90vh;
+    width: 75%;
+    /* position: relative; */
+    /* transform: translate(0px, -80px); */
+    /* z-index: 1; */
 }
