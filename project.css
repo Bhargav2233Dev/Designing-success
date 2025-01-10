@@ -9,6 +9,7 @@
     --bgcolor-second: #34365a;
     --sans-font: 'Open Sans', sans-serif;
     --btn-font: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --number-font: Montserrat sans-serif;
 }
 
 nav {
@@ -135,6 +136,7 @@ nav a {
 .secont-title p {
     padding-top: 5px;
     font-size: 20px;
+    font-style: italic;
 }
 
 .second-aside {
@@ -509,6 +511,8 @@ nav a {
 
 .miniB-content h1 {
     text-align: center;
+    font-family: var(--sans-font);
+    font-weight: 500;
 }
 
 .miniB-content p {
@@ -517,6 +521,7 @@ nav a {
     font-family: var(--sans-font);
     font-size: 18px;
     padding-top: 15px;
+    font-style: italic;
 }
 
 .fifth-section {
@@ -567,6 +572,7 @@ nav a {
     margin-top: 7%;
     letter-spacing: 1px;
     text-align: justify;
+    font-style: italic;
 }
 
 .btn8 {
@@ -1050,6 +1056,27 @@ nav a {
     background-color: white;
     /* position: absolute; */
     transform: translate(0px, 100px);
+    padding: 50px 0px 40px 45px;
+    justify-content: center;
+}
+
+.card_dev h1 {
+    font-family: var(--sans-font);
+    font-size: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: gray;
+    letter-spacing: 2px;
+}
+
+.card_dev h2 {
+    color: var(--bgcolor-first);
+    font-size: 5em;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
 }
 
 .card_dev1 {
@@ -1057,6 +1084,27 @@ nav a {
     width: 240px;
     background-color: white;
     transform: translate(0px, 100px);
+    padding: 50px 0px 40px 45px;
+}
+
+.card_dev1 h1 {
+    font-family: var(--sans-font);
+    font-size: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: gray;
+    letter-spacing: 2px;
+    margin-left: 25px;
+}
+
+.card_dev1 h2 {
+    color: var(--bgcolor-first);
+    font-size: 5em;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-left: 10px;
+    margin-right: 30px;
+    margin-top: 30px;
 }
 
 .card_dev2 {
@@ -1064,6 +1112,27 @@ nav a {
     width: 240px;
     background-color: white;
     transform: translate(0px, 100px);
+    padding: 50px 0px 40px 20px;
+}
+
+.card_dev2 h1 {
+    font-family: var(--sans-font);
+    font-size: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: gray;
+    letter-spacing: 2px;
+    margin-left: 60px;
+}
+
+.card_dev2 h2 {
+    color: var(--bgcolor-first);
+    font-size: 5em;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
 }
 
 .card_dev3 {
@@ -1071,6 +1140,27 @@ nav a {
     width: 240px;
     background-color: white;
     transform: translate(0px, 100px);
+    padding: 50px 0px 40px 25px;
+}
+
+.card_dev3 h1 {
+    font-family: var(--sans-font);
+    font-size: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: gray;
+    letter-spacing: 2px;
+    margin-left: 50px;
+}
+
+.card_dev3 h2 {
+    color: var(--bgcolor-first);
+    font-size: 5em;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
 }
 
 .ime_devnimi {
@@ -1092,4 +1182,219 @@ nav a {
     /* position: relative; */
     /* transform: translate(0px, -80px); */
     /* z-index: 1; */
+}
+
+.tenth-section {
+    height: 100vh;
+    width: 100%;
+    background-color: var(--bgcolor-second);
+    padding: 100px 70px 0px 130px;
+    display: flex;
+    gap: 30px;
+}
+
+.ten_aside {
+    height: 85%;
+    width: 400px;
+    background-color: var(--bgcolor-second);
+
+}
+
+.maindev-logo {
+    height: 50px;
+    width: 74%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+    /* margin-left: 30px; */
+}
+
+.ten_aside h1 {
+    font-family: var(--sans-font);
+    color: white;
+    font-size: 3em;
+}
+
+.ten_aside h3 {
+    font-family: var(--sans-font);
+    color: white;
+    font-size: 1.5em;
+    font-style: italic;
+    padding-top: 30px;
+    padding-right: 80px;
+    font-weight: 200em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.ten_aside p {
+    color: white;
+    padding-top: 20px;
+    font-size: 1.15em;
+    font-family: var(--sans-font);
+    line-height: 30px;
+    padding-right: 10px;
+}
+
+.tenA_aside {
+    height: 85%;
+    width: 400px;
+    /* background-color: orange; */
+}
+
+.tenb_aside {
+    height: 85%;
+    width: 400px;
+    /* background-color: orange; */
+}
+
+.mlogo-dev1 {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+
+}
+
+.mlogo-dev1 svg {
+    height: 40px;
+    width: 40px;
+    transform: translate(4px, 5px);
+    /* background-color: maroon; */
+}
+
+.mlogo-dev2 {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.mlogo-dev2 svg {
+    height: 40px;
+    width: 40px;
+    transform: translate(4px, 5px);
+    /* background-color: maroon; */
+}
+
+.mlogo-dev3 {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.mlogo-dev3 svg {
+    height: 40px;
+    width: 40px;
+    transform: translate(4px, 5px);
+    /* background-color: maroon; */
+}
+
+.mlogo-dev4 {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.mlogo-dev4 svg {
+    height: 50px;
+    width: 50px;
+    /* transform: translate(4px, 4px); */
+    /* background-color: maroon; */
+}
+
+.mlogo-dev5 {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.mlogo-dev5 svg {
+    height: 40px;
+    width: 40px;
+    transform: translate(4px, 5px);
+    /* background-color: maroon; */
+}
+
+.tenA_aside h3 {
+    font-family: var(--sans-font);
+    font-weight: 700;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.tenA_aside p {
+    font-family: var(--sans-font);
+    /* font-weight: 700; */
+    font-size: 1em;
+    /* text-transform: uppercase; */
+    color: white;
+    /* letter-spacing: 2px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.mail_dev input {
+    height: 60px;
+    width: 80%;
+    font-family: var(--sans-font);
+    padding-left: 10px;
+    font-size: 1em;
+}
+
+.mail_devA input {
+    height: 60px;
+    width: 80%;
+    margin-top: 20px;
+    padding-left: 10px;
+    font-size: 1em;
+}
+
+.mail_devb textarea {
+    height: 120px;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.btn12 {
+    height: 8vh;
+    width: 80%;
+    border: none;
+    border-radius: 100px;
+    color: black;
+    background-color: var(--bgcolor-first);
+    font-size: 1.3em;
+    /* border: 2px solid var(--bgcolor-second); */
+    font-family: var(--btn-font);
+    margin-top: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+
+
+
+    &:hover {
+        background-color: gray;
+        color: white;
+        border: none;
+    }
+}
+
+.footer_last{
+    height: 20vh;
+    width: 100%;
+    background-color:#333333;
+}
+
+.footer_last p{
+    color: white;
+    font-family: var(--sans-font);
+    text-align: center;
+    padding-top: 55px;
 }
